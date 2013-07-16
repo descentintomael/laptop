@@ -44,6 +44,9 @@ fancy_echo "Installing QT, used by Capybara Webkit for headless Javascript integ
 
 fancy_echo "Installing watch, to execute a program periodically and show the output ..."
   successfully brew install watch
+  
+fancy_echo "Installing RVM, the better ruby/gem version manager ..."
+  successfully curl -L https://get.rvm.io | bash -s stable
 
   source ~/.zshrc
 

@@ -36,6 +36,9 @@ fancy_echo "Installing tmux, to save project state and switch between projects .
 fancy_echo "Installing reattach-to-user-namespace, for copy-paste and RubyMotion compatibility with tmux ..."
   successfully brew install reattach-to-user-namespace
 
+# NOTE: Standard company procedure is to use MacPorts to install version 6.8.6-0 2013-07-07 Q16, 
+# but MacPorts and brew don't get along so I'm using this for now.  If it becomes a problem, brew
+# makes it easy enough to uninstall
 fancy_echo "Installing ImageMagick, to crop and resize images ..."
   successfully brew install imagemagick
 

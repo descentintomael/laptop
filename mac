@@ -68,9 +68,13 @@ fancy_echo "Installing GitHub CLI client ..."
   successfully chmod +x ~/.bin/hub
 
 fancy_echo "Installing Vim and MacVim"
+  successfully brew install cscope
   successfully brew install vim --with-ruby --with-python --override-system-vi
   successfully brew install macvim --override-system-vim
   successfully brew linkapps
+  
+fancy_echo "Installing ImageMagick"
+  successfully brew install imagemagick --with-ghostscript
 
 if ! grep -qs "DO NOT EDIT BELOW THIS LINE" ~/.zshrc; then
   fancy_echo "Prepare ~/.zshrc for http://github.com/thoughtbot/dotfiles ..."

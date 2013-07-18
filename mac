@@ -40,7 +40,7 @@ fancy_echo "Installing reattach-to-user-namespace, for copy-paste and RubyMotion
 # but MacPorts and brew don't get along so I'm using this for now.  If it becomes a problem, brew
 # makes it easy enough to uninstall
 fancy_echo "Installing ImageMagick, to crop and resize images ..."
-  successfully brew install imagemagick
+  successfully brew install imagemagick --with-ghostscript
 
 fancy_echo "Installing QT, used by Capybara Webkit for headless Javascript integration testing ..."
   successfully brew install qt
@@ -75,9 +75,6 @@ fancy_echo "Installing Vim and MacVim"
   successfully brew install vim --with-ruby --with-python --override-system-vi
   successfully brew install macvim --override-system-vim
   successfully brew linkapps
-  
-fancy_echo "Installing ImageMagick"
-  successfully brew install imagemagick --with-ghostscript
 
 if ! grep -qs "DO NOT EDIT BELOW THIS LINE" ~/.zshrc; then
   fancy_echo "Prepare ~/.zshrc for http://github.com/thoughtbot/dotfiles ..."

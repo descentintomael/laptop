@@ -1,7 +1,7 @@
 Laptop
 ======
 
-Laptop is a script to set up a Mac OS X or Linux laptop for Rails development.
+Laptop is a script to set up a Mac OS X laptop for Rails development.
 
 Requirements
 ------------
@@ -20,34 +20,12 @@ for Lion (OS X 10.7) or Mountain Lion (OS X 10.8).
 
     chsh -s /bin/zsh
 
-### Linux
-
-We support:
-
-* [13.04: Raring Ringtail](https://wiki.ubuntu.com/RaringRingtail/ReleaseNotes),
-* [12.10: Quantal Quetzal](https://wiki.ubuntu.com/QuantalQuetzal/ReleaseNotes), and
-* [12.04 LTS: Precise Pangolin](https://wiki.ubuntu.com/PrecisePangolin/ReleaseNotes),
-* Debian stable (currently [wheezy](http://www.debian.org/releases/stable/)).
-* Debian testing (currently [jessie](http://www.debian.org/releases/testing/)).
-
-1) Install zsh and set it as your login shell:
-
-    bash <(wget -qO- https://raw.github.com/thoughtbot/laptop/master/linux-prerequisites)
-
 Install
 -------
 
-### Mac OS X
-
 Read, then run the script:
 
-    zsh <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
-
-### Linux
-
-Read, then run the script:
-
-    zsh <(wget -qO- https://raw.github.com/thoughtbot/laptop/master/linux)
+    zsh <(curl -s https://raw.github.com/descentintomael/laptop/master/mac)
 
 What it sets up
 ---------------

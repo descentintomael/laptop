@@ -59,6 +59,9 @@ fancy_echo "Installing ruby-build, to install Rubies ..."
 fancy_echo "Installing GNU Compiler Collection, a necessary prerequisite to installing Ruby ..."
   successfully brew tap homebrew/dupes
   successfully brew install apple-gcc42
+  
+fancy_echo "Installing s3cmd to access our S3 servers"
+  successfull brew install s3cmd
 
 fancy_echo "Updating to latest Rubygems version ..."
   successfully gem update --system

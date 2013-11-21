@@ -61,8 +61,11 @@ fancy_echo "Installing GNU Compiler Collection, a necessary prerequisite to inst
   successfully brew install apple-gcc42
   
 fancy_echo "Installing s3cmd to access our S3 servers"
-  successfull brew install s3cmd
+  successfully brew install s3cmd
 fancy_echo "Don't forget to copy ~/.s3cfg over and your SSH keys"
+
+fancy_echo "Installing gpg"
+  successfuly brew install gpg
 
 fancy_echo "Updating to latest Rubygems version ..."
   successfully gem update --system
